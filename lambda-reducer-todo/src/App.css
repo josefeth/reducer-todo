@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.TodoList{
+  font-size: 5rem;
+}
+.task-completed {
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  /* border: 1px solid black; */
+  text-decoration: line-through;
+  background-color: black;
+  margin: 3%;
+
+} 
+.input{
+  border-radius: 10px;
+  border: 2px solid black;
+  width: 200px;
+  height: 50px;
+  font-size: 2rem;
+  margin: 3%;
+}
+.todolist{
+  font-size: 2rem;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 3%;
+}
+
+.todoform{
+margin-top: 20%;
+
+}
+
+.todoform h1{
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  }
+
+.button{
+  margin: 2%;
+  /* width: 100px;
+  height: 100px; */
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  background: black;
+  border: 1px solid black;
+
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  background: #ffafbd;
+  background: -webkit-linear-gradient(to right, #ffafbd, #ffc3a0);
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+}
